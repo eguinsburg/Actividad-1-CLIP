@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>El beso de la mujer araña</title>
+    <title>Adivinanzas</title>
     <style>
         h1 {color: red;}
         body {background-image:url('libro.jpg');}
     </style>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 </head>
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <a class="navbar-brand" href="#">Librería Virtual</a>
@@ -42,32 +42,16 @@
       </ul>
     </div>
   </nav>
+<body style="text-align: center;">
+    <p style="font-size: 30px; color: red;">En este apartado podrás hacer adivinanzas de los libros que están cargados en la página!.</p>
+    <hr>
+    <p style="font-size: 25px;">Te pedimos que pongas todas las respuestas en mayúsculas!</p>
+    <hr>
+    <label for="harry">Harry Potter</label>
+    <p id="txt" style="display:none; font-size: 20px;"><b>Año tras año los alumnos me van probando y les indico a que casa han de ir dando... ¿Quien soy? <br><br><input id="rta1" type="text" name="rta" placeholder="Ingrese su respuesta!"> <button id="click" onclick="adivinanzaHarry()">Enviar!</button> </b></p>
+    <button type="button" onclick="document.getElementById('txt').style.display='block'" >Empezar!</button>
 
-<body>
-    <header>
-        <h1 style="text-align: center; font-size: 55px;">El Beso de la Mujer Araña</h1>
-        <hr>
-    </header>
-    <img src="mujerarañaa.jpg" alt="Libro" style="float:right;width: 489px;height: 491px; margin: 0 35px;">
-    <article class="MargenMA">      
-    <p style="font-size: 20px; text-indent: 1em; text-align: justify;">Esta obra publicada el 1976, por Manuel Puig, es una de las grandes obras literarias
-    argentinas que cuentan la vida de dos presos en Argentina. Los presos ya mencionados son Valentín Arregui y Molina, el primero es preso político y el segundo 
-    está preso por ser homosexual. Esta obra literaria fue prohibida en Argentina en la época del ´70 debido al golpe de estado.</p>
-    
-    <p style="font-size: 20px; text-indent: 1em; text-align: justify;">Esta novela nos cuenta la vida de ambos personajes que conviven en la misma celda. Durante el libro, 
-    Molina le cuenta historias de películas a Arregui ya que es la única manera de acercarse a él, debido a que es muy cerrado emocionalmente. Esto con el transcurso de la 
-    novela va cambiando y los presos se hacen cada vez más cercanos a tal punto de lograr una muy buena amistad y también llegar a encuentros físicos emocionales. </p>
-    
-    <p style="font-size: 20px; text-indent: 1em; text-align: justify;">Este libro es una obra de arte literaria y es muy atractivo para la lectura. La novela también fue producida
-     cómo película y está muy bien llevada a cabo. A continuación dejaremos las páginas para leer el libro y ver la película en caso de estar interesados!.</p>
-    </article>
-    <footer> 
-     <ul>
-        <li><a href="http://recursosbiblio.url.edu.gt/publicjlg/curso/be_muj.pdf">Libro</a></li>
-     <li><a href="https://www.youtube.com/watch?v=FTsUk3piTpI">Película</a></li>
-    </ul>
-    </footer>
-    <script src="script.js"></script>
+<script src="script.js"></script>
 </body>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>

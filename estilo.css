@@ -2,14 +2,15 @@
     margin: 0 80px 0 20px;
 }
 
-.margen {
-    margin: 0 530px 0 10px;
-}
-
-.margenhp {
-    margin: 0 25px 0 10px;
-}
-
 .MargenForm {
     margin: 0 250px 0 40px;
+}
+
+.MargenHP {
+    margin: 0 40px 0 15px;
+    text-align: justify;   
+}
+.MargenMA {
+    margin: 0 40px 0 15px;
+    text-align: justify;
 }
