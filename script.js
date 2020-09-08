@@ -21,7 +21,9 @@ function adivinanzaHarry() {
         
         do {
             if (rtausuario === rtacorrecta) {
-                alert("Tu respuesta es correcta, felicitaciones!!!")}
+                alert("Tu respuesta es correcta, felicitaciones!!!")
+                document.getElementById("click").disabled = true;
+                break;}
             else {  iniintentos++;
                     alert("Intentelo nuevamente.")}
                     if(iniintentos===2) {alert("Pista: Escucha los pedidos de los estudiantes.")}
